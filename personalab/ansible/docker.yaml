@@ -1,0 +1,9 @@
+---
+- hosts: all
+  remote_user: root
+  
+  tasks:
+    - name: install docker
+      yum: name="docker" state=latest
+    - name: enable and start docker daemon
+      systemd: enabled=yes state=started name=docker

@@ -1,0 +1,9 @@
+---
+- hosts: all
+  remote_user: root
+  
+  tasks:
+    - name: install libvirt
+      yum: name="libvirt,libguestfs-tools,virt-viewer,virt-install,qemu-kvm" state=latest
+    - name: start libvirtd
+      systemd: state=started name=libvirtd 
