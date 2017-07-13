@@ -15,3 +15,5 @@
       yum: name=vim state=latest
     - name: install git and additional tools
       yum: name="git,tig,git-review" state=latest
+    - name: install gcc
+      yum: name="gcc" state=latest
