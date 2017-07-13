@@ -15,7 +15,7 @@ setup(name='personalab',
       packages=find_packages(),
       install_requires=['SQLAlchemy','os_client_config','docker-py','python-openstackclient'],
       zip_safe=False,
-      scripts=['pl-cli.py']
+      scripts=['personalab/pl-cli.py']
      )
 
 # TODO make sure creating db directory. you should put the db file in the config file
