@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #from ansible.module_utils import cloud
 
 import personalab.drivers.conn

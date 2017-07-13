@@ -14,7 +14,9 @@ setup(name='personalab',
       license='GPL',
       packages=find_packages(),
       install_requires=['SQLAlchemy','os_client_config','docker-py','python-openstackclient'],
-      zip_safe=False)
+      zip_safe=False,
+      scripts=['pl-cli.py']
+     )
 
 # TODO make sure creating db directory. you should put the db file in the config file
 # also, libvirt and docker should be installed with yum if you want to use them.
