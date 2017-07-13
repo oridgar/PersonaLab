@@ -1,0 +1,7 @@
+[public-cloud]
+name=openstack
+type=openstack
+url=https://myopenstack.example.com
+username=admin
+project_name=admin
+region_name=regionOne

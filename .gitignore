@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+#custom
+.idea/
+personalab/db/*
+personalab/config/personalab.conf
+*.pyc
+.settings/
+/dist/
+/*.egg-info
+.project
+.pydevproject
